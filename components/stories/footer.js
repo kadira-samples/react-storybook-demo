@@ -7,26 +7,32 @@ import {
 
 storiesOf('Footer', module)
   .add('default view', () => (
-    <Footer
-      completedCount={10}
-      activeCount={4}
-      filter={SHOW_ALL}
-      onClearCompleted={action('onClearCompleted')}
-      onShow={action('onShow')} />
+    <div className="todoapp">
+      <Footer
+        completedCount={10}
+        activeCount={4}
+        filter={SHOW_ALL}
+        onClearCompleted={action('onClearCompleted')}
+        onShow={action('onShow')} />
+    </div>
   ))
   .add('show completed', () => (
-    <Footer
-      completedCount={10}
-      activeCount={4}
-      filter={SHOW_COMPLETED}
-      onClearCompleted={action('onClearCompleted')}
-      onShow={action('onShow')} />
+    <div className="todoapp">
+      <Footer
+        completedCount={10}
+        activeCount={4}
+        filter={SHOW_COMPLETED}
+        onClearCompleted={action('onClearCompleted')}
+        onShow={action('onShow')} />
+    </div>
   ))
   .add('show active', () => (
-    <Footer
-      completedCount={10}
-      activeCount={4}
-      filter={SHOW_ACTIVE}
-      onClearCompleted={action('onClearCompleted')}
-      onShow={action('onShow')} />
+    <div className="todoapp">
+      <Footer
+        completedCount={10}
+        activeCount={4}
+        filter={SHOW_ACTIVE}
+        onClearCompleted={action('onClearCompleted')}
+        onShow={action('onShow')} />
+    </div>
   ));
