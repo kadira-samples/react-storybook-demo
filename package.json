@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node server.js",
     "test": "cross-env NODE_ENV=test mocha --recursive --compilers js:babel-register --require ./test/setup.js",
-    "test:watch": "npm test -- --watch"
+    "test:watch": "npm test -- --watch",
+    "storybook": "storybook-server 9001"
   },
   "repository": {
     "type": "git",
@@ -42,6 +43,7 @@
     "todomvc-app-css": "^2.0.1",
     "webpack": "^1.9.11",
     "webpack-dev-middleware": "^1.2.0",
-    "webpack-hot-middleware": "^2.9.1"
+    "webpack-hot-middleware": "^2.9.1",
+    "react-storybook": "^0.11.0"
   }
 }
