@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '../footer';
+import Footer from '../Footer';
 import { storiesOf, action } from 'react-storybook';
 import {
   SHOW_ALL, SHOW_COMPLETED, SHOW_ACTIVE

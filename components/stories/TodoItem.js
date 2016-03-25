@@ -2,7 +2,7 @@ import React from 'react';
 import TodoItem from '../TodoItem';
 import { storiesOf, action } from 'react-storybook';
 
-storiesOf('Todo Item', module)
+storiesOf('TodoItem', module)
   .add('not completed', () => {
     const todo = {
       id: 'the-id',

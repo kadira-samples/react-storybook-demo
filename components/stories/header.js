@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../header';
+import Header from '../Header';
 import { storiesOf, action } from 'react-storybook';
 
 storiesOf('Header', module)
