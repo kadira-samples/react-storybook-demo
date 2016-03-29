@@ -1,4 +1,4 @@
-import { configure } from 'react-storybook';
+import { configure } from '@kadira/storybook';
 import 'todomvc-app-css/index.css'
 
 function loadStories() {

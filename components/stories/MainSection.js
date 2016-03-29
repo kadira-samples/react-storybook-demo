@@ -1,6 +1,6 @@
 import React from 'react';
 import MainSection from '../MainSection';
-import { storiesOf, action } from 'react-storybook';
+import { storiesOf, action } from '@kadira/storybook';
 
 storiesOf('MainSection', module)
   .add('all active', () => {
