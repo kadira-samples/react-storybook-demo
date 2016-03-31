@@ -6,7 +6,7 @@
     "start": "node server.js",
     "test": "cross-env NODE_ENV=test mocha --recursive --compilers js:babel-register --require ./test/setup.js",
     "test:watch": "npm test -- --watch",
-    "storybook": "storybook-server -p 9001"
+    "storybook": "start-storybook -p 9001"
   },
   "repository": {
     "type": "git",
@@ -44,6 +44,6 @@
     "webpack": "^1.9.11",
     "webpack-dev-middleware": "^1.2.0",
     "webpack-hot-middleware": "^2.9.1",
-    "@kadira/storybook": "^0.12.0"
+    "@kadira/storybook": "^1.1.0"
   }
 }
