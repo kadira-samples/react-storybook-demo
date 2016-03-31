@@ -1,4 +1,4 @@
-import './Header';
-import './Footer';
+import './header';
+import './footer';
 import './TodoItem';
 import './MainSection';
