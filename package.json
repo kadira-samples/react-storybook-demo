@@ -6,7 +6,8 @@
     "start": "node server.js",
     "test": "cross-env NODE_ENV=test mocha --recursive --compilers js:babel-register --require ./test/setup.js",
     "test:watch": "npm test -- --watch",
-    "storybook": "start-storybook -p 9001"
+    "storybook": "start-storybook -p 9001",
+    "build-storybook": "build-storybook -o .abc-ds"
   },
   "repository": {
     "type": "git",
