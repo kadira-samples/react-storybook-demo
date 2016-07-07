@@ -28,7 +28,7 @@
     "stack-source-map": "^1.0.4"
   },
   "devDependencies": {
-    "@kadira/storybook": "^1.1.0",
+    "@kadira/storybook": "^1.36.0",
     "@kadira/storybook-deployer": "^1.0.0",
     "babel-core": "^6.3.15",
     "babel-loader": "^6.2.0",
