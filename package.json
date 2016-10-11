@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@kadira/storybook": "^2.24.0",
-    "@kadira/storybook-addon-comments": "^1.1.0",
+    "@kadira/storybook-addon-comments": "^1.1.1",
     "@kadira/storybook-database-cloud": "^2.2.0",
     "@kadira/storybook-deployer": "^1.0.0",
     "babel-core": "^6.3.15",
