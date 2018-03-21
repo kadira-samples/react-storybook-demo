@@ -4,7 +4,7 @@
   "description": "Redux TodoMVC example",
   "scripts": {
     "start": "node server.js",
-    "test": "cross-env NODE_ENV=test mocha --recursive --compilers js:babel-register --require ./test/setup.js",
+    "test": "cross-env NODE_ENV=test mocha --recursive --compilers js:babel-register --require ./test/setup.js && eyes-storybook",
     "test:watch": "npm test -- --watch",
     "storybook": "start-storybook -p 9001",
     "deploy-storybook": "storybook-to-ghpages"
@@ -28,6 +28,7 @@
     "stack-source-map": "^1.0.4"
   },
   "devDependencies": {
+    "@applitools/eyes.storybook": "^1.4.1",
     "@kadira/storybook": "^2.24.0",
     "@kadira/storybook-addon-comments": "^1.1.1",
     "@kadira/storybook-database-cloud": "^2.2.0",
