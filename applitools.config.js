@@ -1,1 +1,1 @@
-{useRenderer: true}
+module.exports = {useRenderer: true}
