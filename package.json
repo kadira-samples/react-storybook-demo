@@ -4,7 +4,7 @@
   "description": "Redux TodoMVC example",
   "scripts": {
     "start": "node server.js",
-    "build": "npm run storybook",
+    "build": "npm run build-storybook",
     "test": "cross-env NODE_ENV=test mocha --recursive --compilers js:babel-register --require ./test/setup.js && eyes-storybook",
     "test:watch": "npm test -- --watch",
     "storybook": "start-storybook -p 9001",
