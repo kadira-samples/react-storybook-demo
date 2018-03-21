@@ -1,0 +1,6 @@
+language: node_js
+
+script:
+  - npm run build
+  - export APPLITOOLS_BATCH_ID=${TRAVIS_PULL_REQUEST_SHA:=$TRAVIS_COMMIT}
+  - npm test
