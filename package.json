@@ -7,7 +7,8 @@
     "test": "cross-env NODE_ENV=test mocha --recursive --compilers js:babel-register --require ./test/setup.js",
     "test:watch": "npm test -- --watch",
     "storybook": "start-storybook -p 9001",
-    "deploy-storybook": "storybook-to-ghpages"
+    "deploy-storybook": "storybook-to-ghpages",
+    "snapshot": "build-storybook && percy-storybook --widths=320,1280"
   },
   "repository": {
     "type": "git",
